@@ -127,12 +127,16 @@ input[type=password] {
   }
 
   .pull-right ul li a {
-    display: block;
-    width: 100%;
+    display: inline;
+    list-style: none;
   }
 
   .img-container {
     height: 200px;
   }
+}
+
+ul li {
+  display: inline;
 }
 
